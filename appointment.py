@@ -57,23 +57,23 @@ class Application:
             'georgia 18 bold'), fg='black', bg='grey')
         self.phone.place(x=0, y=300)
 
-        # Entries for all labels============================================================
-        self.name_ent = Entry(self.left, width=30)
+        # Entries for all labels
+        self.name_ent = Entry(self.left, width=32)
         self.name_ent.place(x=250, y=100)
 
-        self.age_ent = Entry(self.left, width=30)
+        self.age_ent = Entry(self.left, width=32)
         self.age_ent.place(x=250, y=140)
 
-        self.gender_ent = Entry(self.left, width=30)
+        self.gender_ent = Entry(self.left, width=32)
         self.gender_ent.place(x=250, y=180)
 
-        self.location_ent = Entry(self.left, width=30)
+        self.location_ent = Entry(self.left, width=32)
         self.location_ent.place(x=250, y=220)
 
-        self.time_ent = Entry(self.left, width=30)
+        self.time_ent = Entry(self.left, width=32)
         self.time_ent.place(x=250, y=260)
 
-        self.phone_ent = Entry(self.left, width=30)
+        self.phone_ent = Entry(self.left, width=32)
         self.phone_ent.place(x=250, y=300)
 
         # button to perform a command
