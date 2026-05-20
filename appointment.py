@@ -127,6 +127,7 @@ class Application:
 
 
 # creating the object
+
 root = Tk()
 b = Application(root)
 
@@ -136,5 +137,5 @@ root.geometry("1366x768")
 # preventing the resize feature
 root.resizable(False, False)
 
-# end the loop
+# end the main loop
 root.mainloop()
