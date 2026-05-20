@@ -56,7 +56,7 @@
 
 ---
 
-## ┌─── ✨ Key Features
+## ✨ Key Features
 
 | 🌟 Feature | Details |
 |---|---|
@@ -69,7 +69,7 @@
 
 ---
 
-## ┌─── 🛠️ Technology Stack
+##  🛠️ Technology Stack
 
 ```
   ╭──────────────────┬──────────────────────────────────────────────╮
@@ -84,7 +84,7 @@
 
 ---
 
-## ┌─── 🚀 Installation & Setup
+##  🚀 Installation & Setup
 
 ### Step 1 — Install Python
 
@@ -124,7 +124,7 @@ python appointment.py
 
 ---
 
-## ┌─── 🎮 Usage Guide
+##  🎮 Usage Guide
 
 Once the application is running:
 
@@ -138,7 +138,7 @@ Once the application is running:
 
 ---
 
-## ┌─── 📁 Project Structure
+##  📁 Project Structure
 
 ```
 📦 AutoBook/
@@ -152,7 +152,7 @@ Once the application is running:
 
 ---
 
-## ┌─── ⚠️ Database Notes
+##  ⚠️ Database Notes
 
 > [!IMPORTANT]
 > The `database.db` file **must be placed in the same directory** as the Python scripts for the application to run correctly. This file stores all booking records and user data locally on your machine.
@@ -162,7 +162,7 @@ Once the application is running:
 
 ---
 
-## ┌─── 🤝 Contributing
+##  🤝 Contributing
 
 Contributions are always welcome and appreciated! 💖
 
@@ -177,7 +177,7 @@ Ideas we'd love to see: online booking sync, email confirmation, car availabilit
 
 ---
 
-## ┌─── 📜 License
+##  📜 License
 
 AutoBook is licensed under the **MIT License** — free to use, modify, and share.
 See the `LICENSE` file for full details.
