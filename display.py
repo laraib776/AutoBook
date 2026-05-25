@@ -34,7 +34,7 @@ class Application:
         self.change.place(x=500, y=600)
 
         # empty text labels to later config
-        self.n = Label(master, text="", font=('arial 200 bold'))
+        self.n = Label(master, text="", font=('arial 201 bold'))
         self.n.place(x=500, y=100)
 
         self.pname = Label(master, text="", font=('arial 80 bold'))
@@ -44,9 +44,9 @@ class Application:
         self.n.config(text=str(number[self.x]))
         self.pname.config(text=str(patients[self.x]))
         engine = pyttsx3.init()
-        voices = engine.getProperty('voices')
-        rate = engine.getProperty('rate')
-        engine.setProperty('rate', rate-50)
+        voices = engine.getProperty('voices.')
+        rate = engine.getProperty('rate.')
+        engine.setProperty('rate.', rate-50)
         engine.say('Booking number ' + str(number[self.x]) + str(patients[self.x]))
         engine.runAndWait()
         self.x += 1
