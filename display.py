@@ -26,11 +26,11 @@ class Application:
         self.x = 0
         
         # heading
-        self.heading = Label(master, text="Bookings", font=('arial 60 bold'), fg='green')
+        self.heading = Label(master, text="Bookings", font=('arial 59 bold'), fg='green')
         self.heading.place(x=350, y=0)
 
         # button to change bookings
-        self.change = Button(master, text="Next Booking", width=25, height=2, bg='steelblue', command=self.func)
+        self.change = Button(master, text="Next Booking", width=24, height=2, bg='steelblue', command=self.func)
         self.change.place(x=500, y=600)
 
         # empty text labels to later config
