@@ -93,7 +93,7 @@ Download Python 3.x from the official site:
 🔗  https://www.python.org/downloads/
 ```
 
-### Step 2 — Install Required Libraries
+### Step 2 — Install Required Libraries needed
 
 ```bash
 pip install pyttsx3
